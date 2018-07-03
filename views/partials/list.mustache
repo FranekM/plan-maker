@@ -1,0 +1,23 @@
+<section>
+
+    <h2>{{title}}</h2>
+    <p>{{description}}</p>
+
+    {{# options}}
+        <div class="option">
+            <div class="head">
+                <h3>{{title}}</h3>
+                <p>{{description}}<p>
+            </div>
+            <div class = "body">
+                {{# assigns}}
+                    <div class="assign">
+                        <div class="user">{{#user}}{{name}}{{/user}}</div>
+                        <div class="comment">{{comment}}</div>
+                    </div>
+                {{/ assigns}}
+            </div>
+        </div>
+    {{/ options}}
+
+</section>

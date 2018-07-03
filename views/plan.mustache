@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <title>{{title}}</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="static/css/style.css">
+        <script src="static/js/plan.js"></script>
+    </head>
+    <body>
+
+    <header>
+        <h1>{{title}}</h1>
+        <p>{{description}}</p>
+    </header>
+
+    <main>
+        {{# lists}}
+            {{> list}}
+        {{/ lists}}
+    </main>
+
+    <footer>
+        <h3>Plan-maker</h3>
+        <p>Zrobiony dla Karpia ;)</p>
+    </footer>
+
+    </body>
+</html>

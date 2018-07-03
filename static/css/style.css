@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    min-height: 100vh;
+    background: #000000;
+}
+
+header, footer {
+    background: #000000;
+    color: #ffffff;
+    padding: 35px 50px;
+}
+
+main {
+    background: #000000;
+    color: #ffffff;
+    padding: 35px 20px;
+}
+
+section {
+    padding: 20px 30px;
+    border: 1px solid #ffffff;
+}
+
+.option {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.option .head {
+    width: 300px;
+    border-right: 1px solid #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.option .body {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.assign {
+    background: #444444;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.assign .comment {
+    display: none;
+}
+
+.assign:hover .comment {
+    position: fixed;
+    display: block;
+    background: #000000;
+    padding: 10px;
+    border: 1px dotted #ffffff;
+}
