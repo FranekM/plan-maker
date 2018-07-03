@@ -16,6 +16,14 @@ header, footer {
     padding: 35px 50px;
 }
 
+header {
+    border-bottom: 1px solid #ffffff;
+}
+
+footer {
+    border-top: 1px solid #ffffff;
+}
+
 main {
     background: #000000;
     color: #ffffff;
@@ -23,26 +31,29 @@ main {
 }
 
 section {
-    padding: 20px 30px;
-    border: 1px solid #ffffff;
+    padding: 15px 20px;
+    border: 1px dotted #ffffff;
+    width: 600px;
 }
 
 .option {
     border: 1px solid #ffffff;
-    padding: 10px;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .option .head {
-    width: 300px;
-    border-right: 1px solid #ffffff;
-    display: inline-block;
-    vertical-align: middle;
+    padding: 10px;
+    border-bottom: 1px solid #ffffff;
+    background: #444444;
 }
 
 .option .body {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    padding: 10px;
+}
+
+.option .head h3 {
+    text-transform: uppercase;
 }
 
 .assign {
@@ -50,7 +61,6 @@ section {
     display: inline-block;
     padding: 10px;
     margin: 10px;
-    width: 200px;
 }
 
 .assign .comment {

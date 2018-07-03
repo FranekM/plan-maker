@@ -12,10 +12,13 @@
             <div class = "body">
                 {{# assigns}}
                     <div class="assign">
-                        <div class="user">{{#user}}{{name}}{{/user}}</div>
+                        <div class="user">{{#user}}{{name}} {{surname}}{{/user}}</div>
                         <div class="comment">{{comment}}</div>
                     </div>
                 {{/ assigns}}
+                {{# is_editable}}
+                    <button>zgłoś się!</button>
+                {{/ is_editable}}
             </div>
         </div>
     {{/ options}}
